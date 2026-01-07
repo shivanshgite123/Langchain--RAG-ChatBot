@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Document Q&A Assistant (LangChain + MongoDB Atlas RAG)
 
 A Streamlit-based Retrieval-Augmented Generation (RAG) application that allows users to upload text documents and ask questions about their content using OpenAI's language models and MongoDB Atlas vector search.
@@ -79,3 +80,6 @@ Query: User question is converted to an embedding
 Search: MongoDB Vector Search finds the most relevant chunks (k=5)
 Generate: OpenAI GPT generates an answer based on the relevant chunks
 Return: Answer is displayed to the user
+=======
+# Langchain--RAG-ChatBot
+>>>>>>> fce9220cf66f2a65f8ee18437fa3ad8b459890aa
