@@ -1,16 +1,16 @@
-<<<<<<< HEAD
+
 # Document Q&A Assistant (LangChain + MongoDB Atlas RAG)
 
 A Streamlit-based Retrieval-Augmented Generation (RAG) application that allows users to upload text documents and ask questions about their content using OpenAI's language models and MongoDB Atlas vector search.
 
 ## Features
 
-- 📄 Upload and process TXT documents
-- 🤖 AI-powered Q&A using OpenAI's GPT models
-- 🗄️ Vector embeddings stored in MongoDB Atlas
-- 🔍 Semantic search with MongoDB Atlas Vector Search
-- 🧹 Reset/clear knowledge base functionality
-- 🔐 Secure API key management using environment variables
+-  Upload and process TXT documents
+-  AI-powered Q&A using OpenAI's GPT models
+-  Vector embeddings stored in MongoDB Atlas
+-  Semantic search with MongoDB Atlas Vector Search
+-  Reset/clear knowledge base functionality
+-  Secure API key management using environment variables
 
 ## Prerequisites
 
@@ -63,6 +63,7 @@ RAG USING LANGCHAIN/
 ├── .env                   # Environment variables (create this)
 └── README.md              # This file
 
+
 Dependencies
 streamlit: Web framework for the UI
 langchain: Framework for building LLM applications
@@ -71,15 +72,24 @@ pymongo: MongoDB Python driver
 python-dotenv: Load environment variables from .env file
 openai: OpenAI Python client
 
-How It Works
-Upload: User uploads a TXT file
-Split: Text is split into chunks (1000 characters with 200-character overlap)
-Embed: Text chunks are converted to embeddings using OpenAI's embedding model
-Store: Embeddings are stored in MongoDB Atlas with metadata
-Query: User question is converted to an embedding
-Search: MongoDB Vector Search finds the most relevant chunks (k=5)
-Generate: OpenAI GPT generates an answer based on the relevant chunks
-Return: Answer is displayed to the user
+*How It Works*
+Workflow
+
+Upload: User uploads a TXT file.
+
+Split: Text is split into chunks (1000 characters with 200-character overlap).
+
+Embed: Text chunks are converted to embeddings using OpenAI's embedding model.
+
+Store: Embeddings are stored in MongoDB Atlas with metadata.
+
+Query: User question is converted to an embedding.
+
+Search: MongoDB Vector Search finds the most relevant chunks (k=5).
+
+Generate: OpenAI GPT generates an answer based on the relevant chunks.
+
+Return: Answer is displayed to the user.
 =======
 # Langchain--RAG-ChatBot
->>>>>>> fce9220cf66f2a65f8ee18437fa3ad8b459890aa
+
